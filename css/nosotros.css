@@ -1,0 +1,188 @@
+/* SECCIÓN 1 */
+
+.us-section-1 {
+    padding-top: 8%;
+}
+
+.us-section-1, .us-section-2 {
+    width: 100%;
+}
+
+.us-section-1 h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: left;
+    color: #3F3310;
+    padding: 0% 0% 5% 5%;
+}
+
+.container-us{
+    width: 100%;
+    padding: 0% 0% 3% 0%;
+    display: flex;
+}
+
+.content-us {
+    width: 65%;
+}
+
+.us-img {
+    width: 35%;
+    padding: 0% 5% 0% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-us img {
+    width: 100%;
+    height: auto;
+}
+
+.container-us p {
+    font-size: 20px;
+    text-align: left;
+    padding: 0% 5% 5% 5%;
+}
+
+/* Sección 2 */
+
+.us-section-2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.column-us {
+    float: left;
+    width: 50%;
+    height: auto;
+    
+}
+
+.us-section-2 a {
+    text-decoration: none;
+    color: #343C00;
+ }
+
+.us-section-2 h2 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+    padding: 5%;
+}
+
+.content-column {
+    height: 100%;
+    padding: 0% 8% 5% 8%;
+}
+
+.visit-us {
+    background-color: #BBC199;
+    color: black;
+}
+
+.buy-online {
+    background-color: #9AA266;
+    color: black;
+} 
+
+
+/* MEDIA QUIERES */
+
+@media only screen and (min-width: 1500px) and (max-width: 3000px) {
+
+    .us-section-1 h1 {
+        font-size: 104px;
+    }
+
+    .us-section-1 p, .us-section-2 li{
+        font-size: 40px;
+    }
+
+    .us-section-2 h2 {
+        font-size: 48px;
+    }
+
+}
+
+@media only screen and  (min-width: 700px) and (max-width: 1000px) {
+
+    .us-section-1 {
+        padding-top: 8%;
+    }
+
+    .container-us{
+        display: block;
+    }
+
+    .content-us{
+        width: 100%;
+    }
+
+    .content-us h1{
+        font-size: 44px;
+    }
+
+    .us-img {
+        width: 100%;
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .us-img img {
+        width: 30%;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 699px){
+
+    .us-section-1 {
+        padding-top: 20%;
+    }
+
+    .us-section-1 h1{
+        font-size: 20px;
+    }
+
+    .container-us{
+        display: block;
+    }
+
+    .content-us{
+        width: 100%;
+    }
+
+    .content-us p, .content-column li{
+        font-size: 12px;
+    }
+
+    .us-img {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .us-img img {
+        width: 90%;
+    }
+
+    .us-section-2{
+        display: block;
+    }
+
+    .us-section-2 h2{
+        font-size: 16px;
+    }
+    
+    .column-us {
+        width: 100%;
+        
+    }
+
+    .buy-online {
+        margin-bottom: 5%;
+    }
+
+
+}

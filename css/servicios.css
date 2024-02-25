@@ -1,0 +1,346 @@
+.services-section-1{
+    margin: 0% 0% 4% 0%;
+    width: 100%;
+    padding-top: 8%;
+}
+
+.services-section-1 h1, .services-section-2 h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: left;
+    color: #3F3310;
+    padding: 0% 0% 3% 3%;
+}
+
+.container-service-1, .container-service-3, .container-service-5 {
+    display: flex;
+    width: 100%;
+    margin:0%;
+    background-color: #DDE0CC;
+}
+
+.container-service-2, .container-service-4, .container-service-6 {
+    display: flex;
+    width: 100%;
+    margin:0%;
+}
+
+.container-service-1 img, .container-service-2 img, .container-service-3 img, .container-service-4 img, .container-service-5 img, .container-service-6 img {
+    width: 30%;
+    padding: 3%;
+    float: left;
+}
+
+.container-content-service-1, .container-content-service-2, .container-content-service-3, .container-content-service-4, .container-content-service-5, .container-content-service-6 {
+    width: 70%;
+    display: block;
+    align-items: center;
+}
+
+.container-content-service-1 h2, .container-content-service-2 h2, .container-content-service-3 h2, .container-content-service-4 h2, .container-content-service-5 h2, .container-content-service-6 h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+    color: #343C00;
+    padding: 5% 3% 2% 1%;
+}
+
+.container-content-service-1 p, .container-content-service-2 p, .container-content-service-3 p, .container-content-service-4 p, .container-content-service-5 p, .container-content-service-6 p{
+    font-size: 20px;
+    text-align: left;
+    padding: 1% 5% 1% 1%;
+}
+
+.more-information {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #566400;
+    border-radius: 60px;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 30%;
+    height: auto;
+    margin: 5px;
+    margin-top: 20px;
+    border: 2px solid #566400;
+    background-color: transparent;
+
+}
+
+.more-information:hover {
+    background-color: #343C00;
+    border: 2px solid #343C00;
+    color: white;
+}
+
+/* SECCIÓN 2: FORMULARIO DE COTIZACIÓN */
+
+.services-section-2 {
+    width: 100%;
+    
+}
+
+
+.container-form-service {
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 3%; 
+    margin: auto;   
+    margin-bottom: 4%;
+}
+
+.hgroup-form h2 {
+    color: #343C00;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+
+.hgroup-form h3{
+    color: #343C00;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 2%;
+    font-size: 20px;
+}
+
+.form-service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columns-form-service {
+    width: 100%;
+    display: flex;
+}
+
+.column-form-service-1, .column-form-service-2 {
+    width: 50%;
+    margin: 3%;
+}
+
+.field-form {
+    margin-bottom: 2%;
+}
+
+.form-service label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin-bottom: 2px;
+    width: 100%;
+    display: inline-block;
+    line-height: 20px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.form-service input {
+    width: 100%;
+    padding: 2%;
+    border: none;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    border: 1px solid #4E5266;
+    resize: none;
+    margin-bottom: 1%;
+}
+
+.form-service input:focus {
+    outline: none;  /* El aoutline es el borde que trae por defecto */
+    background-color: white;
+    border: 2px solid #CFDB6C;
+}
+
+.submit-message {
+    width: 100%;
+    height: auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border-radius: 60px;
+    padding: 2%;
+    margin: 10% 2% 0% 2%;
+    border: 2px solid #566400;
+    background-color: #566400;
+}
+
+.submit-message:hover {
+    background-color: #343C00;
+    border: 2px solid #343C00;
+    color: white;
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 3000px) {
+
+    .services-section-1 h1, .services-section-2 h1{
+        font-size: 76px;
+    }
+
+    .services-section-1 h2, .services-section-2 h2 {
+        font-size: 48px;
+    }
+
+    .services-section-2 h3 {
+        font-size: 44px;
+    }
+
+    .services-section-1 p, .services-section-2 p, .more-information{
+        font-size: 40px;
+    }
+
+    .columns-form-service label, .columns-form-service input, .submit-message {
+        font-size: 32px;
+    }
+
+}
+
+@media only screen and  (min-width: 700px) and (max-width: 1000px) {
+
+    .services-section-1 {
+        padding-top: 16%;
+        display: block;
+    }
+
+    .container-service-1, .container-service-2, .container-service-3, .container-service-4, .container-service-5, .container-service-6{
+        display: block;
+        width: 100%;
+        justify-content: center;
+        
+    }
+
+    .container-service-1 img, .container-service-2 img, .container-service-3 img, .container-service-4 img, .container-service-5 img, .container-service-6 img{
+        width: 95%;
+    }
+
+    .container-content-service-1, .container-content-service-2, .container-content-service-3, .container-content-service-4, .container-content-service-5, .container-content-service-6 {
+        width: 100%;
+        text-align: center;
+        float: center;
+    }
+    
+    .container-content-service-1 p, .container-content-service-2 p, .container-content-service-3 p, .container-content-service-4 p, .container-content-service-5 p, .container-content-service-6 p {
+        padding: 0% 4% 0% 4%;
+    }
+
+    .container-content-service-1 h2, .container-content-service-1 p, .container-content-service-2 h2, .container-content-service-2 p, .container-content-service-3 h2, .container-content-service-3 p, .container-content-service-4 h2, .container-content-service-4 p, .container-content-service-5 h2, .container-content-service-5 p, .container-content-service-6 h2, .container-content-service-6 p, .more-information {
+        text-align: center;
+    }
+
+    .more-information {
+        margin-bottom: 3%;
+    }
+
+    .container-form-service {
+        width: 85%;
+    }
+
+    .columns-form-service {
+        display: block;
+        width: 100%;
+        justify-content: center;
+        padding: 0% 0% 0% 4%;
+    }
+
+    .column-form-service-1, .column-form-service-2 {
+        width: 85%;
+    }
+         
+    .field-form  {
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 699px){
+   
+    .services-section-1 {
+        padding-top: 25%;
+    }
+    
+    .services-section-1 h1, .services-section-2 h1 {
+        font-size: 20px;
+    }
+
+    .services-section-1 {
+        display: block;
+    }
+
+    .container-service-1, .container-service-2, .container-service-3, .container-service-4, .container-service-5, .container-service-6{
+        display: block;
+        width: 100%;
+        justify-content: center;
+        
+    }
+
+    .container-service-1 img, .container-service-2 img, .container-service-3 img, .container-service-4 img, .container-service-5 img, .container-service-6 img{
+        width: 95%;
+        padding: 5% 2% 5% 2%;
+    }
+
+    .container-content-service-1, .container-content-service-2, .container-content-service-3, .container-content-service-4, .container-content-service-5, .container-content-service-6 {
+        width: 100%;
+        text-align: center;
+        float: center;
+    }
+    
+    .container-content-service-1 p, .container-content-service-2 p, .container-content-service-3 p, .container-content-service-4 p, .container-content-service-5 p, .container-content-service-6 p {
+        padding: 0% 4% 0% 4%;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .container-content-service-1 h2, .container-content-service-2 h2, .container-content-service-3 h2, .container-content-service-4 h2, .container-content-service-5 h2, .container-content-service-6 h2, .hgroup-form h2 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .form-service {
+        padding: 5%;
+    }
+
+    .hgroup-form {
+        padding-top: 5%;
+    }
+
+    .hgroup-form h3 {
+        font-size: 14px;
+    }
+
+    .more-information {
+        width: 50%;
+        margin-bottom: 3%;
+        font-size: 12px;
+    }
+
+    .container-form-service {
+        width: 85%;
+    }
+
+    .columns-form-service {
+        display: block;
+        width: 100%;
+        justify-content: center;
+        padding: 0% 0% 0% 4%;
+    }
+
+    .column-form-service-1, .column-form-service-2 {
+        width: 85%;
+    }
+         
+    .field-form  {
+        width: 100%;
+    }
+
+    .columns-form-service label, .columns-form-service input, .submit-message {
+        font-size: 12px;
+    }
+  
+}
